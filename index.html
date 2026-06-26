@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shamikh Sheikh | Portfolio</title>
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts for professional typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION BAR ==================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <!-- Logo / Name -->
+      <a href="#hero" class="logo">Shamikh <span>Sheikh</span></a>
+
+      <!-- Hamburger menu icon for mobile (checkbox trick) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#goals">Goals</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <!-- Animated greeting -->
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Shamikh Sheikh</h1>
+        <h2 class="hero-title">Student & Beginner Web Developer</h2>
+        <p class="hero-tagline">"Learning today, building tomorrow."</p>
+
+        <!-- Call-to-action buttons -->
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-code"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+
+        <!-- Social icons -->
+        <div class="hero-social">
+          <a href="https://github.com/mshamikhsheikh" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:mshamikhsheikh@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero illustration / avatar placeholder -->
+      <div class="hero-image">
+        <div class="hero-avatar">
+          <i class="fas fa-user-graduate"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wave divider at bottom of hero -->
+    <div class="wave-divider">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C300,100 700,0 1200,60 L1200,120 L0,120 Z" fill="#f4f7fc"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ME SECTION ==================== -->
+  <section id="about" class="about section-padding">
+    <div class="container">
+      <!-- Section heading -->
+      <div class="section-header">
+        <h2>About Me</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="about-content">
+        <!-- Profile image card -->
+        <div class="about-image">
+          <div class="about-avatar-card">
+            <i class="fas fa-user-graduate"></i>
+            <h3>Shamikh Sheikh</h3>
+            <p>Student & Developer</p>
+          </div>
+        </div>
+
+        <!-- About text -->
+        <div class="about-text">
+          <p>
+            I am a passionate student who enjoys learning technology and web development.
+            I love solving problems, exploring new programming concepts, and improving my
+            skills through practice. My goal is to become a professional software developer
+            and build useful applications that help people.
+          </p>
+          <!-- Quick stats -->
+          <div class="about-stats">
+            <div class="stat-item">
+              <i class="fas fa-code"></i>
+              <span>Learning Web Dev</span>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-laptop-code"></i>
+              <span>Building Projects</span>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-lightbulb"></i>
+              <span>Problem Solver</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EDUCATION SECTION ==================== -->
+  <section id="education" class="education section-padding">
+    <div class="container">
+      <!-- Section heading -->
+      <div class="section-header">
+        <h2>Education</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="education-content">
+        <!-- Education card -->
+        <div class="education-card">
+          <div class="edu-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="edu-details">
+            <h3>Secondary Student</h3>
+            <p class="edu-meta">
+              <i class="fas fa-book"></i> Studying Computer Science and Mathematics
+            </p>
+            <p class="edu-description">
+              Currently pursuing my secondary education with a focus on Computer Science
+              and Mathematics, building a strong foundation for my future in software development.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline decoration -->
+        <div class="education-timeline">
+          <div class="timeline-dot"></div>
+          <div class="timeline-line"></div>
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section id="skills" class="skills section-padding">
+    <div class="container">
+      <!-- Section heading -->
+      <div class="section-header">
+        <h2>My Skills</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Skill 1: HTML -->
+        <div class="skill-card">
+          <div class="skill-icon html-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3>HTML</h3>
+          <div class="skill-bar">
+            <div class="skill-progress html-progress"></div>
+          </div>
+          <span class="skill-level">Intermediate</span>
+        </div>
+
+        <!-- Skill 2: CSS -->
+        <div class="skill-card">
+          <div class="skill-icon css-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h3>CSS</h3>
+          <div class="skill-bar">
+            <div class="skill-progress css-progress"></div>
+          </div>
+          <span class="skill-level">Intermediate</span>
+        </div>
+
+        <!-- Skill 3: Basic C++ -->
+        <div class="skill-card">
+          <div class="skill-icon cpp-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Basic C++</h3>
+          <div class="skill-bar">
+            <div class="skill-progress cpp-progress"></div>
+          </div>
+          <span class="skill-level">Beginner</span>
+        </div>
+
+        <!-- Skill 4: Microsoft Office -->
+        <div class="skill-card">
+          <div class="skill-icon office-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h3>Microsoft Office</h3>
+          <div class="skill-bar">
+            <div class="skill-progress office-progress"></div>
+          </div>
+          <span class="skill-level">Proficient</span>
+        </div>
+
+        <!-- Skill 5: Problem Solving -->
+        <div class="skill-card">
+          <div class="skill-icon problem-icon">
+            <i class="fas fa-puzzle-piece"></i>
+          </div>
+          <h3>Problem Solving</h3>
+          <div class="skill-bar">
+            <div class="skill-progress problem-progress"></div>
+          </div>
+          <span class="skill-level">Intermediate</span>
+        </div>
+
+        <!-- Skill 6: Teamwork -->
+        <div class="skill-card">
+          <div class="skill-icon team-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Teamwork</h3>
+          <div class="skill-bar">
+            <div class="skill-progress team-progress"></div>
+          </div>
+          <span class="skill-level">Strong</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS SECTION ==================== -->
+  <section id="projects" class="projects section-padding">
+    <div class="container">
+      <!-- Section heading -->
+      <div class="section-header">
+        <h2>My Projects</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Student Portfolio Website -->
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="project-info">
+            <h3>Student Portfolio Website</h3>
+            <p>A modern, responsive personal portfolio built with HTML and CSS to showcase skills, projects, and achievements.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Basic Calculator -->
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-calculator"></i>
+          </div>
+          <div class="project-info">
+            <h3>Basic Calculator</h3>
+            <p>A functional calculator interface designed using HTML and CSS, demonstrating layout and styling skills.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Personal Resume Webpage -->
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-file"></i>
+          </div>
+          <div class="project-info">
+            <h3>Personal Resume Webpage</h3>
+            <p>A clean, professional resume webpage created with HTML and CSS to present personal and academic information.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FUTURE GOALS SECTION ==================== -->
+  <section id="goals" class="goals section-padding">
+    <div class="container">
+      <!-- Section heading -->
+      <div class="section-header">
+        <h2>Future Goals</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="goals-content">
+        <div class="goals-icon">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <p class="goals-text">
+          My goal is to become a full-stack web developer, learn modern technologies,
+          and work on real-world software projects.
+        </p>
+
+        <!-- Goal milestone cards -->
+        <div class="goals-milestones">
+          <div class="milestone-card">
+            <i class="fas fa-laptop-code"></i>
+            <h4>Learn Modern Tech</h4>
+            <p>Master frameworks, databases, and cloud tools</p>
+          </div>
+          <div class="milestone-card">
+            <i class="fas fa-briefcase"></i>
+            <h4>Real-World Projects</h4>
+            <p>Work on impactful software applications</p>
+          </div>
+          <div class="milestone-card">
+            <i class="fas fa-user-tie"></i>
+            <h4>Full-Stack Developer</h4>
+            <p>Build complete web solutions from front to back</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact" class="contact section-padding">
+    <div class="container">
+      <!-- Section heading -->
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="contact-content">
+        <!-- Contact card: Email -->
+        <div class="contact-card">
+          <div class="contact-card-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <a href="mailto:mshamikhsheikh@gmail.com" class="contact-link">
+            mshamikhsheikh@gmail.com
+          </a>
+        </div>
+
+        <!-- Contact card: GitHub -->
+        <div class="contact-card">
+          <div class="contact-card-icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <a href="https://github.com/mshamikhsheikh" target="_blank" class="contact-link">
+            github.com/mshamikhsheikh
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <!-- Back-to-top button -->
+      <a href="#hero" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+
+      <!-- Footer social links -->
+      <div class="footer-social">
+        <a href="https://github.com/mshamikhsheikh" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:mshamikhsheikh@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+
+      <!-- Footer navigation -->
+      <ul class="footer-nav">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Copyright text -->
+      <p class="footer-copyright">
+        &copy; 2026 Shamikh Sheikh. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
